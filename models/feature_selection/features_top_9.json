@@ -1,0 +1,11 @@
+[
+    "Flow_Duration",
+    "Dst_Port",
+    "Src_Port",
+    "Protocol",
+    "Flow_Pkts/s",
+    "Init_Bwd_Win_Byts",
+    "Flow_IAT_Max",
+    "ACK_Flag_Cnt",
+    "Bwd_Pkts/s"
+]

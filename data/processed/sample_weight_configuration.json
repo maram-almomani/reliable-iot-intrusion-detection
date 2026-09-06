@@ -1,0 +1,11 @@
+{
+    "weighting_strategy": "inverse feature-group frequency + balanced class weights computed on unique training groups",
+    "class_weight_map": {
+        "DoS": 0.8810452374262433,
+        "MITM ARP Spoofing": 3.4697797941794843,
+        "Mirai": 0.3643762709894835,
+        "Normal": 1.9046589321508838,
+        "Scan": 3.2537511673757393
+    },
+    "normalization": "combined sample weights normalized to mean 1.0"
+}

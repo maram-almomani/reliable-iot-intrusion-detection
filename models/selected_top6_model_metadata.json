@@ -1,0 +1,20 @@
+{
+    "selected_model": "XGBoost Top-6",
+    "selection_dataset": "Validation unique feature groups",
+    "selection_metric": "Macro-F1",
+    "selection_rule": "Smallest feature subset retaining at least 99% of Full-69 validation unique-group Macro-F1",
+    "full_model_macro_f1": 0.955135677581931,
+    "minimum_required_macro_f1": 0.9455843208061117,
+    "selected_macro_f1": 0.9484941797863756,
+    "macro_f1_retention_pct": 99.30465399299403,
+    "selected_features": [
+        "Flow_Duration",
+        "Dst_Port",
+        "Src_Port",
+        "Protocol",
+        "Flow_Pkts/s",
+        "Init_Bwd_Win_Byts"
+    ],
+    "number_of_original_features": 6,
+    "test_used_for_selection": false
+}

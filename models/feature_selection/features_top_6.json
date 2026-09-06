@@ -1,0 +1,8 @@
+[
+    "Flow_Duration",
+    "Dst_Port",
+    "Src_Port",
+    "Protocol",
+    "Flow_Pkts/s",
+    "Init_Bwd_Win_Byts"
+]

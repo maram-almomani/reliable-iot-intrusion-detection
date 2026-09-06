@@ -1,0 +1,22 @@
+{
+    "final_model": "XGBoost Top-6",
+    "features": [
+        "Flow_Duration",
+        "Dst_Port",
+        "Src_Port",
+        "Protocol",
+        "Flow_Pkts/s",
+        "Init_Bwd_Win_Byts"
+    ],
+    "number_of_original_features": 6,
+    "temperature": 1.0993294390072668,
+    "selection_rule": "Smallest subset retaining >=99% of Full-69 validation unique-group Macro-F1",
+    "primary_test_evaluation": "Unique feature groups",
+    "secondary_test_evaluation": "Row level",
+    "test_rows": 123302,
+    "test_unique_groups": 52261,
+    "model_selection_used_test": false,
+    "feature_selection_used_test": false,
+    "calibration_fit_used_test": false,
+    "test_evaluated_after_freezing": true
+}

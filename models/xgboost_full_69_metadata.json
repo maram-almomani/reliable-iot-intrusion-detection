@@ -1,0 +1,28 @@
+{
+    "model": "XGBoost",
+    "task": "5-class IoT network intrusion classification",
+    "target": "Cat",
+    "original_features": 69,
+    "transformed_inputs": 71,
+    "training_rows": 374506,
+    "training_unique_groups": 156782,
+    "validation_rows": 125170,
+    "validation_unique_groups": 52262,
+    "training_time_seconds": 345.04537483299987,
+    "preprocessing_time_seconds": 12.795155633000036,
+    "hyperparameters": {
+        "n_estimators": 500,
+        "learning_rate": 0.08,
+        "max_depth": 7,
+        "min_child_weight": 1,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.0,
+        "reg_lambda": 1.0,
+        "tree_method": "hist",
+        "random_state": 42
+    },
+    "xgboost_version": "3.4.1",
+    "sklearn_version": "1.6.1",
+    "test_used": false
+}

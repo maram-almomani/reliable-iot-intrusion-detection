@@ -1,0 +1,59 @@
+# ============================================================
+# RAW / PROCESSED DATA
+# ============================================================
+data/raw/**
+data/processed/**
+
+# Keep lightweight reproducibility metadata
+!data/processed/feature_configuration.json
+!data/processed/sample_weight_configuration.json
+
+# ============================================================
+# LARGE / GENERATED MODEL ARTIFACTS
+# ============================================================
+models/**/*.joblib
+models/**/xgboost_*.json
+
+# Keep lightweight model metadata/configuration
+!models/xgboost_full_69_metadata.json
+!models/selected_top6_model_metadata.json
+!models/top6_temperature_scaling.json
+!models/final_experiment_metadata.json
+
+# Keep feature lists from feature-selection experiment
+!models/feature_selection/features_top_6.json
+!models/feature_selection/features_top_9.json
+!models/feature_selection/features_top_16.json
+!models/feature_selection/features_top_25.json
+!models/feature_selection/features_top_35.json
+
+# ============================================================
+# LARGE PREDICTION DUMPS
+# ============================================================
+results/tables/final_test_unique_group_predictions.csv
+
+# ============================================================
+# SECRETS / CREDENTIALS
+# ============================================================
+.env
+.env.*
+kaggle.json
+credentials.json
+*token*
+*secret*
+*.pem
+*.key
+
+# ============================================================
+# PYTHON / JUPYTER
+# ============================================================
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ============================================================
+# OS
+# ============================================================
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+{
+    "method": "Temperature Scaling",
+    "fit_dataset": "Validation unique feature groups",
+    "cross_validation": "5-fold stratified OOF calibration audit",
+    "probability_computation": "float64 stable softmax with explicit row renormalization",
+    "temperature_objective": "Multiclass negative log-likelihood",
+    "fold_temperatures": [
+        1.1067122986554647,
+        1.1089374748375374,
+        1.1032894628275245,
+        1.079983199605261,
+        1.0972811769006812
+    ],
+    "final_temperature": 1.0993294390072668,
+    "ece_equal_width_bins": 15,
+    "ece_adaptive_bins": 15,
+    "brier_definition": "Mean sample-wise sum of squared probability errors across all classes",
+    "test_used": false
+}
